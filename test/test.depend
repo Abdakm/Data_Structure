@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1729263770 source:c:\users\abd alrzak akmik\downloads\documents\codebloke\test\main.cpp
+	<iostream>
+	<cstring>
+
+1728654330 c:\users\abd alrzak akmik\downloads\documents\codebloke\test\cimg.h
+	<cstdio>
+	<cstdlib>
+	<cstdarg>
+	<cstring>
+	<cmath>
+	<cfloat>
+	<climits>
+	<ctime>
+	<exception>
+	<algorithm>
+	<stdio.h>
+	<sys/types.h>
+	<sys/time.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<dirent.h>
+	<fnmatch.h>
+	<windows.h>
+	<shlobj.h>
+	<process.h>
+	<io.h>
+	<initializer_list>
+	<utility>
+	<omp.h>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/keysym.h>
+	<pthread.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<X11/extensions/XShm.h>
+	<X11/extensions/Xrandr.h>
+	<cstddef>
+	<opencv2/opencv.hpp>
+	"png.h"
+	"jpeglib.h"
+	"setjmp.h"
+	"tiffio.h"
+	<libheif/heif_cxx.h>
+	<webp/decode.h>
+	<webp/encode.h>
+	"minc_io_simple_volume.h"
+	"minc_1_simple.h"
+	"minc_1_simple_rw.h"
+	"zlib.h"
+	"curl/curl.h"
+	"Magick++.h"
+	"fftw3.h"
+	"Board.h"
+	"ImfRgbaFile.h"
+	"ImfInputFile.h"
+	"ImfChannelList.h"
+	"ImfMatrixAttribute.h"
+	"ImfArray.h"
+	"tinyexr.h"
+	"CImg.h"
+
