@@ -114,7 +114,14 @@ public:
             length++;
         }
     }
-
+    void Filter(int key){
+        for(int i =0; i < length; i++){
+            if(items[i] == key){
+                Delete(i);
+                length--;
+            }
+        }
+    }
 };
 
 int main()
@@ -128,34 +135,37 @@ int main()
     myarray.Fill();
     cout << "Array size = " << myarray.getSize() <<"   while length = " << myarray.getLength() <<"\n";
     myarray.Display();
-   /* cout << "Enter the value to search for \n";
+
+
+    /*
+    cout << "Enter the value to search for \n";
     int key;
     cin >> key;
     int index =   myarray.Search(key);
     if (index == -1)
         cout << "Item not found \n";
     else
-        cout << "Item found @ position " << index << endl;*/
+        cout << "Item found @ position " << index << endl;
     int index;
     int newitem;
-   /* cout << "Enter new item to add to the array \n";
+    cout << "Enter new item to add to the array \n";
     cin >> newitem;
     myarray.Append(newitem);
-    myarray.Display();*/
+    myarray.Display();
 
-    //cout << "Enter Index to delete its item \n";
-    //cin >> index;
-   /* cin >> newitem;
-    myarray.Insert(index, newitem);*/
-    //myarray.Delete(index);
-    //myarray.Display();
-    //cout << "Array size = " << myarray.getSize() << "   while length = " << myarray.getLength() << "\n";
+    cout << "Enter Index to delete its item \n";
+    cin >> index;
+    cin >> newitem;
+    myarray.Insert(index, newitem);
+    myarray.Delete(index);
+    myarray.Display();
+    cout << "Array size = " << myarray.getSize() << "   while length = " << myarray.getLength() << "\n";
     int newsize;
-   /* cout << "Enter New Size\n";
+    cout << "Enter New Size\n";
     cin >> newsize;
     myarray.Enlarge(newsize);
     cout << "Array size = " << myarray.getSize() << "   while length = " << myarray.getLength() << "\n";
-    myarray.Display();*/
+    myarray.Display();
 
     int newsize2;
     cout << "Enter the other array size: \n";
@@ -165,6 +175,13 @@ int main()
     myarray.Merge(other);
     cout << "Array size = " << myarray.getSize() << "   while length = " << myarray.getLength() << "\n";
     myarray.Display();
+    */
+
+    int filter;
+    cout << "choese number to filter " << endl;
+    cin >> filter;
+    myarray.Filter(filter);
+    cout << "Array size = " << myarray.getSize() <<"   while length = " << myarray.getLength() <<"\n";
+    myarray.Display();
+
 }
-
-
